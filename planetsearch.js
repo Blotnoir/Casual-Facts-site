@@ -1,10 +1,12 @@
+import { privateAPIKey, nasaKey } from "../apikeys.js"
+
 const searchButton = document.getElementById('searchBtn')
 const userInput = document.getElementById('searchBar')
 const searchResults  = document.getElementById('searchResultsDiv')
 const BASE_URL = 'https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?name='
 const randomPlanetBtn = document.getElementById('randomPlanetBtn')
 const wikiInfo = 'https://wikipedia.com/wiki/'
-const apotdURL = 'https://api.nasa.gov/planetary/apod?api_key=9fRSJtYNV93cM5l6SH4XxPFZmelWfg3ocQgIJ1ss'
+const apotdURL = `https://api.nasa.gov/planetary/apod?api_key=${nasaKey}`
 const apotdResult = document.getElementById('apotdResult')
 const apotdBtn = document.getElementById('apotdBtn')
 
@@ -13,7 +15,7 @@ const apotdBtn = document.getElementById('apotdBtn')
 const planetOptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '46285e6bccmshc49a6072cb12492p1db8dejsn066ef5438bce',
+		'X-RapidAPI-Key': `${privateAPIKey}`,
 		'X-RapidAPI-Host': 'planets-by-api-ninjas.p.rapidapi.com'
 	}
 };
