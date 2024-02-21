@@ -1,0 +1,73 @@
+html {
+    background-color: rgb(170, 207, 212);
+}
+#titleOfPage {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: maroon;
+    text-shadow: 2px 2px 6px rgb(121, 121, 129);
+}
+
+#titleicon {
+    height: 45px;
+}
+
+#homeBtn {
+    font-size: .9rem;
+    margin-left: 10rem; 
+    border-radius: 4px;
+    border: none;
+}
+
+#homeBtn:hover {
+    background-color: rgb(218, 216, 216);
+}
+
+#searchDiv {
+    display: block;
+    text-align: center;
+}
+
+#searchBar {
+    
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#searchBar::placeholder {
+    opacity: 0.7;
+}
+
+#searchBtn {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(64, 64, 226);
+    color: white;
+    border-radius: 5px;
+}
+#searchBtn:hover {
+    background-color: rgb(41, 41, 157);
+}
+
+#randomPlanetBtn {
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(64, 64, 226);
+    color: white;
+    border-radius: 5px; 
+}
+
+#randomPlanetBtn:hover {
+    background-color: rgb(41, 41, 157);
+}
+
+.footnotes {
+    color: red;
+}
+
+#searchResultsDiv {
+    font-family: 'Noto Sans Malayalam', sans-serif;
+    font-size: 24px;
+    padding-top: 2rem;
+}

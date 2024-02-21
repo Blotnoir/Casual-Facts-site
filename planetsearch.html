@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planetstyle.css">
+    <script src="planetsearch.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap');
+
+        </style>
+        
+    <title>Planet Search</title>
+</head>
+<body>
+    <a href="index.html">
+        <button id="homeBtn">Home</button>
+    </a>
+    <h1 id="titleOfPage">Planet Finder <img id="titleicon" src="galaxy.png"></h1>
+    <div id="searchDiv"> 
+        <input type="search" id="searchBar" placeholder="Search & Explore...">
+        <button id="searchBtn">Search</button>
+        <button id="randomPlanetBtn">Random Planet</button>
+        <p class="footnotes">*Temperatures are given in Kelvin* <br>
+            *Period = how many Earth days it takes for planet to orbit its host star*
+        </p>
+        <br>
+        <div id="searchResultsDiv">
+            
+        </div>
+        <br>
+        <div id="apotdResult">
+
+        </div>
+    </div>
+</body>
+</html>

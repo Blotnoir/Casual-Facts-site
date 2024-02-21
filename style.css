@@ -1,0 +1,115 @@
+html {
+    font-family: 'Niramit', sans-serif;
+    background-color: rgb(170, 207, 212);
+}
+
+#dom {
+    text-align:center;
+    margin-top: 7rem;
+    font-size: 2rem;
+}
+
+#factBtn {
+    background-color: rgb(237, 231, 224);
+    border-radius: 14px;
+    box-shadow: 5px 2px 6px 0px #504f4f;
+    padding: .7rem;
+    font-size: large;
+}
+
+#factBtn:hover {
+    background-color: rgb(248, 238, 128);
+}
+
+#spaceBtn {
+    background-color: rgb(237, 231, 224);
+    font-size: large;
+    padding: .7rem;
+    margin-left: 22px;
+    border-radius: 14px;
+    box-shadow: 5px 2px 6px 0px #504f4f;
+}
+
+#spaceBtn:hover {
+    background-color: rgb(187, 135, 236);
+    color: white;
+}
+
+.factButtons {
+    text-align: center;
+    margin-top: -30px;
+}
+
+#natureBtn {
+    background-color: rgb(237, 231, 224);
+    font-size: large;
+    padding: .7rem;
+    margin-left: 22px;
+    border-radius: 14px;
+    box-shadow: 5px 2px 6px 0px #504f4f;
+}
+
+#natureBtn:hover {
+    background-color: green;
+    color: white;
+}
+
+
+#jokeBtn {
+    background-color: rgb(237, 231, 224);
+    font-size: large;
+    padding: .7rem;
+    margin-left: 22px;
+    border-radius: 14px;
+    box-shadow: 5px 2px 6px 0px #504f4f;
+}  
+
+#jokeBtn:hover {
+    background-color: rgb(219, 19, 19);
+    color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    box-shadow: 5px 5px 10px #504f4f;
+    border-radius: 8px;
+    background-color: #0481aa;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    font-size: 16px;
+    border: 10px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e598e;}
