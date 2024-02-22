@@ -1,4 +1,4 @@
-import { privateAPIKey, nasaKey } from "../apikeys.js"
+import { privateAPIKey, nasaKey } from "./apikeys.js"
 
 const factBtn = document.getElementById('factBtn')
 const domPrint = document.getElementById('dom')

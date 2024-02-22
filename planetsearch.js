@@ -1,4 +1,4 @@
-import { privateAPIKey, nasaKey } from "../apikeys.js"
+import { privateAPIKey, nasaKey } from "./apikeys.js"
 
 const searchButton = document.getElementById('searchBtn')
 const userInput = document.getElementById('searchBar')
