@@ -1,6 +1,5 @@
 
 // Initially used an array for the random facts but then switched to a fact API instead, kept array for other facts
-
 let facts = [
     'A dime has 118 ridges on its edge',
     'Elephants have tiny brains but powerful memories',

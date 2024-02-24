@@ -1,4 +1,3 @@
-import { privateAPIKey, nasaKey } from "./apikeys.js"
 
 const factBtn = document.getElementById('factBtn')
 const domPrint = document.getElementById('dom')
@@ -10,14 +9,14 @@ const apotdLink = document.getElementById('apotdLink')
 const planetLink = document.getElementById('planetLink')
 
 
-const apotdUrl = `https://api.nasa.gov/planetary/apod?api_key=${nasaKey}`
+const apotdUrl = `https://api.nasa.gov/planetary/apod?api_key=9fRSJtYNV93cM5l6SH4XxPFZmelWfg3ocQgIJ1ss`
 const factUrl = 'https://facts-by-api-ninjas.p.rapidapi.com/v1/facts';
 const jokeUrl = 'https://random-quote-fact-joke-api.p.rapidapi.com/joke';
 
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': `${privateAPIKey}`,
+		'X-RapidAPI-Key': '46285e6bccmshc49a6072cb12492p1db8dejsn066ef5438bce',
 		'X-RapidAPI-Host': 'facts-by-api-ninjas.p.rapidapi.com'
 	}
 };
@@ -25,7 +24,7 @@ const options = {
 const jokeOptions = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': `${privateAPIKey}`,
+		'X-RapidAPI-Key': '46285e6bccmshc49a6072cb12492p1db8dejsn066ef5438bce',
 		'X-RapidAPI-Host': 'random-quote-fact-joke-api.p.rapidapi.com'
 	}
 };
@@ -76,4 +75,6 @@ jokeBtn.addEventListener("click", getJoke)
 factBtn.addEventListener("click", getRandomFact)
 
 apotdLink.addEventListener("click", getAstroPhoto)
+
+
 
